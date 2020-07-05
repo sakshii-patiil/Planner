@@ -66,98 +66,61 @@ body{
     margin-left: 15%;
     max-width: 100%;  /* Responsive */ 
   } 
-  .background{ 
-    border-top: 1px solid white;
-    padding-top: 10px;
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: auto; /* Equal to our image */
+  .top-div h1{
+    margin-left: 50px;
+    color: rgba(0, 0, 0, 0.884);
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  .background>* {
-    -webkit-filter: blur(4px);
-    -moz-filter: blur(4px);
-    -o-filter: blur(4px);
-    -ms-filter: blur(4px);
-    filter: blur(4px);
-    background-color: rgba(30, 32, 32, 0.479);
-    transition: 0.5s;
-   }
-   .background:hover>* {
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
-    filter: blur(0px);
-   }
-  .foreground {
-    filter: blur(0px);
-    position: absolute; /* Overlap the previous div */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.096); /* transparent background */
-  } 
-  .blur {
-    -webkit-filter: blur(2px);
-    filter: blur(2px); 
-  } 
+ .blog-div{
+     padding: 0;
+ }
+ .choices{
+     margin-left: 50px;
+     margin-top: 30px;
+ }
+ .choices button{
+     background-color: white;
+     margin-left: 20px;
+     border: 1px solid teal;
+     outline: none;
+ }
+  #textarea{
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 15px;
+    outline:none;
+    border-color: teal;
+    font-size: 18px;
+    resize: none;
+    color: rgba(0, 0, 0, 0.884);
+    font-family: 'Indie Flower';
+  }
   
-.foreground h1{
-    transition: width .35s ease-in-out;
-   text-align: center;
-   color: black;
-   text-shadow: 1px 1px 1px rgb(248, 243, 243);
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: lighter;
-   margin-top: 240px;
-   font-size: 60px;
-   background-color: rgba(0, 0, 0, 0.11);
-}
-.middle-div{
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    background-color: white;
-    box-shadow:  0 0 10px 5px rgba(0, 0, 0, 0.534);
-}
-.grid-container {
-    display: grid;
-    height: 85%;
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    grid-template-columns: auto auto auto;
-    background-color: transparent;
-    padding: 10px;
+  #textarea:focus , .choices button:active{
+    border: 0;
+    box-shadow:  0 0 5px 2px rgba(0, 0, 0, 0.534);
   }
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    border: 1px solid black;
-  }
-  .grid-item:hover{
-      background-color: grey;
-      transition: 0.3s;
-  }
-  .mid-logo{
-      font-size: 50px;
-      vertical-align: middle;
-      color: teal;
-      font-family: Arial, Helvetica, sans-serif;
-  }
+ #submit{
+     height: 50px;
+     width: 100px;
+     margin-left: 70%; 
+     margin-top: 15px;
+     background-color: rgba(74, 163, 185, 0.541);
+     border: 0;
+     border-radius: 5px;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ #submit:hover{
+    box-shadow:  0 0 2px 2px rgba(0, 0, 0, 0.534);
+ }
 .bottom-div{
     width: 95%;
     margin-left: auto;
     margin-right: auto;
     height: 320px;
     background-color: rgb(45, 46, 43);
-    box-shadow:  0 0 10px 5px rgba(0, 0, 0, 0.534);
 }
 
 
