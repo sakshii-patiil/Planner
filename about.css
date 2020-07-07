@@ -75,55 +75,7 @@ p{
     margin-left: 15%;
     max-width: 100%;  /* Responsive */ 
   } 
-  .background{ 
-    border-top: 1px solid white;
-    padding-top: 10px;
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: auto; /* Equal to our image */
-  }
-  .background>* {
-    -webkit-filter: blur(4px);
-    -moz-filter: blur(4px);
-    -o-filter: blur(4px);
-    -ms-filter: blur(4px);
-    filter: blur(4px);
-    background-color: rgba(30, 32, 32, 0.479);
-    transition: 0.5s;
-   }
-   .background:hover>* {
-    -webkit-filter: blur(0px);
-    -moz-filter: blur(0px);
-    -o-filter: blur(0px);
-    -ms-filter: blur(0px);
-    filter: blur(0px);
-   }
-  .foreground {
-    filter: blur(0px);
-    position: absolute; /* Overlap the previous div */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.096); /* transparent background */
-  } 
-  .blur {
-    -webkit-filter: blur(2px);
-    filter: blur(2px); 
-  } 
-  
-.foreground h1{
-    transition: width .35s ease-in-out;
-   text-align: center;
-   color: black;
-   text-shadow: 1px 1px 1px rgb(248, 243, 243);
-   font-family: Arial, Helvetica, sans-serif;
-   font-weight: lighter;
-   margin-top: 240px;
-   font-size: 60px;
-   background-color: rgba(0, 0, 0, 0.11);
-}
+
 .middle-div{
     width: 95%;
     margin-left: auto;
