@@ -115,6 +115,8 @@ body{
    font-size: 60px;
    background-color: rgba(0, 0, 0, 0.11);
 }
+
+
 .middle-div{
     width: 95%;
     margin-left: auto;
@@ -227,7 +229,7 @@ section {
 /* Footer social icons */
 
 .footer-distributed .footer-icons{
-	margin-top: 40px;
+  margin-top: 40px;
 }
 .footer-distributed .footer-icons a{
 	display: inline-block;

@@ -1,0 +1,57 @@
+.modalcontainer{
+    display: none;
+    background-color: whitesmoke;
+    height: 150px;
+    width: 300px;
+    position: fixed;
+    z-index:99999;
+    margin-left: 39%;
+    margin-top: 10%;
+    border-radius: 15px;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.281);
+  }
+  .loading-box{
+    display: none;
+    background-color: whitesmoke;
+    background-image: url("../images/loading.gif");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: left;
+    height: 80px;
+    width: 250px;
+    font-size: 35px;
+    font-weight: lighter;
+    position: fixed;
+    z-index:99999;
+    margin-left: 38%;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.39);
+  }
+  .loading-box label{
+    float: right;
+    margin: 10px; 
+    padding: 5px; 
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .modalcontainer h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .buttons{
+    margin-top: 15%;
+    margin-left: 40%
+  }
+  .buttons button{
+    height: 30px;
+    width: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    border-radius: 5px;
+    background-color: whitesmoke;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.308);
+  }
+  .buttons button:active{
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.116);
+  }

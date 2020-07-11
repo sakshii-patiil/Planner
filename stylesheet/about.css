@@ -14,9 +14,8 @@ body{
 } 
 /*Text decoration*/
 #list{
-      font-family: serif;
        font-size:25px;
-      list-style-image: url(check.png)
+		font-family: Arial, Helvetica, sans-serif;	
     }
 p{
   font-size:30px;
@@ -84,13 +83,17 @@ p{
     background-color: white;
     box-shadow:  0 0 10px 5px rgba(0, 0, 0, 0.534);
 }
-
   .mid-logo{
       font-size: 50px;
       vertical-align: middle;
       color: teal;
       font-family: Arial, Helvetica, sans-serif;
   }
+  .mid-info{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 10px;
+  }
+  
 .bottom-div{
     width: 95%;
     margin-left: auto;
