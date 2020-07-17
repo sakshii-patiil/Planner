@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create List</title>
 </head>
- <link rel="stylesheet" href="about.css">
+ <link rel="stylesheet" href="after_signIn.css">
 <body>
     <div class="top-div">
         <div id="topnav" class="topnav">
@@ -25,7 +25,7 @@
 						<li>Log Out</li>
 					</ul>
 				 </a>
-		 </div>
+		               </div>
    	    </div>
 
 		<div class="add_note">
